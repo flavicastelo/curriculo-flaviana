@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+i{
+    margin-right: 10px;
+}
+/* Cabecalho */
+.cabecalho{
+    margin: 0 auto;
+    width: 1000px;
+    height: 200px;
+    padding: 30px;
+    background-color: #0097A7;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabecalho-nav{    
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;    
+}
+.cabecalho-nav ul{
+    margin: 10px auto;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.cabecalho-nav li{
+    margin: 0 10px;
+}
+
+/* Corpo */
+h3{
+    margin: 20px auto 10px;
+    background-color: #EDF8F9;
+    color: #0097A7;
+    width: 100%;
+    text-align: center;
+}
+
+h5{
+    font-weight: 200;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+}
+
+ul { 
+    list-style-position: inside; 
+}
+
+.container{
+    margin: 0px auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-secao{
+    width: 100%;
+    
+}
+.sobre-mim{
+    width: 100%;
+    align-items: center;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;    
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.data{
+    word-wrap:break-word;
+    font-size: 14px;
+    width: 15%;
+    align-items: flex-start;   
+}
+
+.skills li{
+    list-style: none;    
+}
+
+.skills i{
+    font-size: 25px;
+}
+.container-skill{  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container-skill > div{
+    width:100%;
+}
+
+.container-item{   
+    width: 50%;
+    background-color: #ddd;
+   
+}  
+.skill-item{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.html{
+    width: 70%; 
+    padding:10px; 
+    background-color: #0097A7;
+}
+.css{
+    width: 60%; 
+    padding:10px; 
+    background-color: #0097A7;
+}
+.js{
+    width: 40%; 
+    padding:10px; 
+    background-color: #0097A7;
+}
+
+.gh{
+    width: 40%; 
+    padding:10px; 
+    background-color: #0097A7;
+}
+
+/* Rodape */
+footer{
+    width: 1000px;
+    height: 100px;
+}
