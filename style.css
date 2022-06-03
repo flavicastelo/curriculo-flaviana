@@ -177,6 +177,9 @@ footer{
     .container{
         width: 100%;
     }
+    .sobre-mim > p{
+        margin: 5px 10px;
+    }
     .item{
         display: flex;    
         flex-direction: column;
