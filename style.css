@@ -55,7 +55,7 @@ i{
 
 /* Corpo */
 h3{
-    margin: 20px auto 10px;
+    margin: 15px auto 10px;
     background-color: #E1D3CC;
     color: #AC9C92;
     width: 100%;
@@ -73,6 +73,7 @@ p{
 
 ul { 
     list-style-position: inside; 
+    margin-top: 5px;
 }
 
 .container{
@@ -110,6 +111,10 @@ ul {
     align-items: flex-start;   
 }
 
+.descricao {
+    margin-bottom:15px;
+}
+
 .skills li{
     list-style: none;    
 }
@@ -119,11 +124,15 @@ ul {
 }
 .container-skill{  
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
+
 .container-skill > div{
     width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .container-item{   
@@ -133,9 +142,10 @@ ul {
 }  
 .skill-item{    
     display: flex;
-    justify-content: center;
     align-items: center;
     margin-bottom: 10px;
+    width: 30%;
+    justify-content: center;
 }
 
 .html{
@@ -158,6 +168,17 @@ ul {
     width: 55%; 
     padding:10px; 
     background-color: #AC9C92;
+}
+
+.fl{
+    width: 60%; 
+    padding:10px; 
+    background-color: #AC9C92;
+}
+
+.flutter{
+    width: 30px;
+    font-size: 25px;
 }
 
 /* Rodape */
