@@ -115,19 +115,9 @@ ul {
     margin-bottom:15px;
 }
 
-<<<<<<< HEAD
-.skills li{
-    list-style: none;    
-}
-
-.skills i{
-    font-size: 25px;
-}
-=======
 
 
 
->>>>>>> alteracoes
 .container-skill{  
     display: flex;
     flex-direction: row;
@@ -186,12 +176,9 @@ ul {
     width: 30px;
     font-size: 25px;
 }
-<<<<<<< HEAD
-=======
 .descricao-projeto{
     font-size: 14px;
 }
->>>>>>> alteracoes
 
 /* Rodape */
 footer{
@@ -199,14 +186,11 @@ footer{
     height: 100px;
 }
 
-<<<<<<< HEAD
-=======
 .links{
     text-decoration: none;
     color: #AC9C92;
     font-size: 14px;
 }
->>>>>>> alteracoes
 /* Responsividade */
 
 @media only screen and (max-width: 1000px){
