@@ -1,0 +1,223 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1{
+    font-size: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: #FFF;
+}
+
+i{
+    margin-right: 10px;
+}
+/* Cabecalho */
+.cabecalho{
+    margin: 0 auto;
+    width: 1000px;
+    height: 200px;
+    padding: 30px;
+    background-color: #AC9C92;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cabecalho-nav{    
+    margin: 10px auto;
+    display: flex;
+    flex-direction: row;    
+}
+.cabecalho-nav ul{
+    margin: 10px auto;
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.cabecalho-nav li{
+    margin: 0 10px;
+}
+
+/* Corpo */
+h3{
+    margin: 15px auto 10px;
+    background-color: #E1D3CC;
+    color: #AC9C92;
+    width: 100%;
+    text-align: center;
+}
+
+h5{
+    font-weight: 200;
+    font-style: italic;
+}
+
+p{
+    text-align: justify;
+}
+
+ul { 
+    list-style-position: inside; 
+    margin-top: 5px;
+}
+
+.container{
+    margin: 0px auto;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-secao{
+    width: 100%;
+    
+}
+.sobre-mim{
+    width: 100%;
+    align-items: center;
+}
+
+.experiencia{
+    display: flex;
+    flex-direction: column;
+}
+
+.item{
+    display: flex;    
+    flex-direction: row;
+    margin-bottom: 5px;
+}
+
+.data{
+    word-wrap:break-word;
+    font-size: 14px;
+    width: 15%;
+    align-items: flex-start;   
+}
+
+.descricao {
+    margin-bottom:15px;
+}
+
+.skills li{
+    list-style: none;    
+}
+
+.skills i{
+    font-size: 25px;
+}
+.container-skill{  
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.container-skill > div{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container-item{   
+    width: 50%;
+    background-color: #ddd;
+   
+}  
+.skill-item{    
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 30%;
+    justify-content: center;
+}
+
+.html{
+    width: 70%; 
+    padding:10px; 
+    background-color: #AC9C92;
+}
+.css{
+    width: 70%; 
+    padding:10px; 
+    background-color: #AC9C92;
+}
+.js{
+    width: 60%; 
+    padding:10px; 
+    background-color: #AC9C92;
+}
+
+.gh{
+    width: 55%; 
+    padding:10px; 
+    background-color: #AC9C92;
+}
+
+.fl{
+    width: 60%; 
+    padding:10px; 
+    background-color: #AC9C92;
+}
+
+.flutter{
+    width: 30px;
+    font-size: 25px;
+}
+
+/* Rodape */
+footer{
+    width: 1000px;
+    height: 100px;
+}
+
+/* Responsividade */
+
+@media only screen and (max-width: 1000px){
+    .cabecalho{  
+        width: 100%;
+        padding: 10px;
+    
+    }
+    .container{
+        width: 100%;
+    }
+    .sobre-mim > p{
+        margin: 5px 10px;
+    }
+    .item{
+        display: flex;    
+        flex-direction: column;
+        margin: 5px 10px;
+        width: 100%;
+        
+    }
+    .data{
+        width: 100%;
+        font-variant: small-caps;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 5px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .cabecalho{
+        height: auto;
+    }
+}
