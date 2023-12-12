@@ -98,6 +98,11 @@ ul {
     flex-direction: column;
 }
 
+.projetos{
+    display: flex;    
+    margin-bottom: 5px;
+    flex-direction: column;
+}
 .item{
     display: flex;    
     flex-direction: row;
@@ -113,10 +118,13 @@ ul {
 
 .descricao {
     margin-bottom:15px;
+    gap: 2rem;
 }
 
-
-
+.stack{
+    background-color: #E1D3CC;
+    width: fit-content;
+}
 
 .container-skill{  
     display: flex;
